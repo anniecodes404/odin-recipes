@@ -1,0 +1,37 @@
+/* Default Styling */
+
+body {
+    background-color: #F5D5ED; 
+    color: #090C08; 
+}
+
+.main-header {
+    height: auto; 
+    border: 2px solid #715B64;
+    padding-bottom: 12px; 
+}
+
+h1 {
+    text-align: center; 
+    font-size: 34px;
+}
+
+div {
+    display: flex; 
+}
+
+img {
+    border: 2px solid black;
+    border-radius: 8px; 
+    margin: 0 auto; 
+}
+
+li:nth-child(even){
+    color:#90AA86; 
+}
+
+/* List style */
+
+ul {
+    list-style-type: none;
+}
