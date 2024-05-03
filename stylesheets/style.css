@@ -1,9 +1,16 @@
 /* Default Styling */
 
-body {
-    background-color: #F5D5ED; 
-    color: #090C08; 
+* {
+    box-sizing: border-box;
 }
+
+body {
+    border: 5px solid brown; 
+    border-radius: 6px;
+    width: 800px;
+    height: 700px; 
+}
+
 
 .main-header {
     height: auto; 
@@ -14,6 +21,14 @@ body {
 h1 {
     text-align: center; 
     font-size: 34px;
+    text-transform: uppercase;
+    color: gold; 
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+       
+ 
+      
 }
 
 div {
@@ -34,4 +49,28 @@ li:nth-child(even){
 
 ul {
     list-style-type: none;
+    display: flex; 
 }
+
+a {
+    text-decoration: none; 
+    color: black; 
+    line-height: 4px; 
+    font-family: "Briem Hand", cursive; ;
+    padding-left: 130px; 
+    margin-top: 400px; 
+    font-size: 18px; 
+}
+
+a:hover{
+    color: gold; 
+
+}
+/* Index */
+
+
+
+
+
+
+
