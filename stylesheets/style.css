@@ -1,76 +1,54 @@
-/* Default Styling */
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    border: 5px solid brown; 
-    border-radius: 6px;
-    width: 800px;
-    height: 700px; 
-}
 
 
-.main-header {
-    height: auto; 
-    border: 2px solid #715B64;
-    padding-bottom: 12px; 
-}
+/* Index */
 
-h1 {
+.main-title {
     text-align: center; 
-    font-size: 34px;
-    text-transform: uppercase;
-    color: gold; 
-    font-family: "Sedan SC", serif;
-    font-weight: 400;
-    font-style: normal;
-       
- 
-      
+    font-size: 22px; 
 }
 
-div {
-    display: flex; 
+a:hover {
+    text-decoration: none;
 }
 
-img {
-    border: 2px solid black;
-    border-radius: 8px; 
-    margin: 0 auto; 
+a:visited {
+    text-decoration: none;
 }
 
-li:nth-child(even){
-    color:#90AA86; 
+a:hover {
+    text-decoration: none;
 }
 
-/* List style */
-
-ul {
-    list-style-type: none;
-    display: flex; 
+a:active {
+    text-decoration: none;
 }
 
 a {
-    text-decoration: none; 
-    color: black; 
-    line-height: 4px; 
-    font-family: "Briem Hand", cursive; ;
-    padding-left: 130px; 
-    margin-top: 400px; 
-    font-size: 18px; 
+    text-decoration: none;
+    color: #071013;
+    letter-spacing: 0.5px; 
 }
 
-a:hover{
-    color: gold; 
+ul {
+    margin-top: 20px; 
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly; 
+    text-transform: uppercase;
+    background-color: green; 
+    height: 25px; 
+    
+    
+}
+
+h6 {
+    font-size: 14px;
+}
+/* Carnivore recipes */
+
+.index-card {
+    border: 2px solid lightslategray; 
+    border-radius: 3px; 
+    background-color: #DFE0E2; 
 
 }
-/* Index */
-
-
-
-
-
-
-
