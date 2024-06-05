@@ -1,3 +1,7 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap');
+
+
  body {
     background-color: #F5E7C0 ;
     display: flex; 
@@ -5,7 +9,7 @@
  }
 
 .header {
-    border: 12px solid red; 
+    border-bottom: 8px solid red; 
     background-color: yellow;
     color: red; 
     display: flex; 
@@ -15,12 +19,18 @@
 }
 
 .container {
-    border: 14px solid red; 
+    box-sizing: border-box;
+    display: inline-block; 
+    border: 14px solid #A35565; 
     background-color: black; 
     color: white; 
-    width: 700px; 
-    height: auto; 
+    width: 500px; 
+    height: 600px; 
     margin: 0 auto; 
+    text-align: center; 
+    box-shadow: -10px -1px 0px 0px #A35565;
+    font-family: 'Waiting for the Sunrise', cursive;
+    /* Add black border on left side between border & box shadow to make a frame */
 }
 
 div ul.nav {
@@ -40,6 +50,6 @@ h1 {
     text-align: center;
 }
 
-div.content {
-    
+ul {
+    list-style: none;
 }
